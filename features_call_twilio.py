@@ -11,7 +11,7 @@ The Calls resource allows you to make outgoing calls. Before a call can be succe
 from twilio.rest import TwilioRestClient
 # To find these visit https://www.twilio.com/user/account
 ACCOUNT_SID = "ACf0757674cd3d5092237f0ee7afca722e"
-AUTH_TOKEN = "0262869362eb19211cb4a85d215440a6"
+AUTH_TOKEN = "YYYYYYYYYYYYYYYYYY"
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 call = client.calls.create(to=input('Enter your phone number\n'), from_="+13023856046",
