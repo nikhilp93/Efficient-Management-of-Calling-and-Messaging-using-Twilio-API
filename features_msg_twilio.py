@@ -4,7 +4,7 @@ from datetime import date
 
 # To find these visit https://www.twilio.com/user/account
 ACCOUNT_SID = "ACf0757674cd3d5092237f0ee7afca722e"
-AUTH_TOKEN = "0262869362eb19211cb4a85d215440a6"
+AUTH_TOKEN = "YYYYYYYYYYYYYYYYYY"
 
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 
